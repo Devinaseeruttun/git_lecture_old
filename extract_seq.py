@@ -1,22 +1,16 @@
 
 
+from import_fasta import *
+from retrieve_slice import *
+from import_gff import *
+from export_seq import *
 
 # User set parameters:
 
-fasta_filepath = ""
-
-gff_filepath = ""
-
-gene_name = ""
+# Uncomment bellow
+#gene_name = "Rv0024"
 
 
-# Needed functions 
-
-def import_fasta():
-	print "working here"
-
-
-def retrieve_seq():
 
 
 # Main part of the script
@@ -28,5 +22,8 @@ fasta_dict = import_fasta()
 gff_coordinates = import_gff()
 
 
-print retrieve_seq(fasta_dict, gff_coordinates, gene_name)
+seq_slice =  retrieve_slice(fasta_dict, gff_coordinates, gene_name)
+
+export_seq(seq_slice)
+
 
