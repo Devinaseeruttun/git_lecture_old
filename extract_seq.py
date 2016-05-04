@@ -13,10 +13,11 @@ gene_name = ""
 # Needed functions 
 
 def import_fasta():
+	# more work done
 	print "working here"
 
 def import_gff():
-
+	print "ive done something here too"
 
 def retrieve_seq():
 
