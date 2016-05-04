@@ -15,8 +15,6 @@ gene_name = ""
 def import_fasta():
 	print "working here"
 
-def import_gff():
-
 
 def retrieve_seq():
 
