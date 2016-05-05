@@ -3,5 +3,5 @@
 # Uncomment the lines bellow
 
 def import_gff():
-	#print "gff imported"
-	#return {'Rv0024':[10, 19]}
+	print "gff imported"
+	return {'Rv0024':[10, 19]}
