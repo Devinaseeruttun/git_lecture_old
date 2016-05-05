@@ -1,19 +1,9 @@
-
-
 from import_fasta import *
 from retrieve_slice import *
 from import_gff import *
 from export_seq import *
 
-# User set parameters:
-
-# Uncomment bellow
-#gene_name = "Rv0024"
-
-
-
-
-# Main part of the script
+gene_name = "Rv0024"
 
 
 fasta_dict = import_fasta()
