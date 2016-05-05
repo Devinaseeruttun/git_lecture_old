@@ -2,4 +2,4 @@
 
 def import_fasta():
 	print "fasta imported"
-	#return "TAGCGCTAGCTHESTRINGTACGATAAA"
+	return "TAGCGCTAGCTHESTRINGTACGATAAA"
